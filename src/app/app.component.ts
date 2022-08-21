@@ -36,6 +36,7 @@ export class AppComponent {
     this.gameManager.setActiveGame(newGame);
   }
 
+
   getPlayers(): Player[] {
     return [{ id: this.player1, symbol: 'X' }, { id: this.player2, symbol: 'O' }];
   }
