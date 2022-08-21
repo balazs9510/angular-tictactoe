@@ -1,0 +1,9 @@
+<table class="grid">
+    <tbody>
+        <tr *ngFor="let row of gameManager.activeGame.grid.cells">
+          <td *ngFor="let cell of row" class="cell active-item" (click)="onCellClick(cell)">
+            {{cell.player?.symbol}}
+          </td>
+        </tr>
+    </tbody>
+</table>

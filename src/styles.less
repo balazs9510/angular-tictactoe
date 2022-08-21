@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+@firt-color : #27296d;
+
+@second-color : #5e63b6;
+
+@third-color : #a393eb;
+
+@fourth-color : #f5c7f7;
+
+body {
+  background-color: @firt-color;
+  color: @fourth-color;
+}
+
+button {
+  font-size: large;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-right: 20px;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  border-spacing: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+
+  filter: drop-shadow(5px 5px 10px #000);
+  font-size: 50px;
+
+  border-radius: 10px;
+}
+
+.active-item:hover {
+  background-color: @second-color;
+  color: @fourth-color;
+}
+
+.active-item {
+  cursor: pointer;
+  border: 2px solid @third-color;
+  text-align: center;
+  color: @second-color;
+  background-color: @fourth-color;
+}
+
+.player-input {
+  margin-right: 5px;
+  text-align: left;
+  padding: 5px;
+  font-size: large;
+  border-radius: 5px;
+}
+
+.player-holder{
+  margin-bottom: 10px;
+}
