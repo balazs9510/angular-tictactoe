@@ -25,6 +25,8 @@ export class AppComponent {
   }
 
   startGame() {
+    if (this.gameManager.activeGame.isRunning) return;
+    this.resetGame();
     this.gameManager.activeGame.isRunning = true;
   }
 
