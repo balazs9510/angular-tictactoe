@@ -1,0 +1,79 @@
+{
+  "configVersion": 1,
+  "timestamp": 1661079661165,
+  "index": "https://balazs9510.github.io/angular-tictactoe/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://balazs9510.github.io/angular-tictactoe/favicon.ico",
+        "https://balazs9510.github.io/angular-tictactoe/index.html",
+        "https://balazs9510.github.io/angular-tictactoe/main.1545ed798ef97ed1.js",
+        "https://balazs9510.github.io/angular-tictactoe/manifest.webmanifest",
+        "https://balazs9510.github.io/angular-tictactoe/polyfills.66e51308c4a4f395.js",
+        "https://balazs9510.github.io/angular-tictactoe/runtime.1204ad1466b7fe2c.js",
+        "https://balazs9510.github.io/angular-tictactoe/styles.0ab428bbf9700fda.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://balazs9510.github.io/angular-tictactoe/assets/apple-touch-icon.png",
+        "https://balazs9510.github.io/angular-tictactoe/assets/favicon-16x16.png",
+        "https://balazs9510.github.io/angular-tictactoe/assets/favicon-32x32.png",
+        "https://balazs9510.github.io/angular-tictactoe/assets/icon.png",
+        "https://balazs9510.github.io/angular-tictactoe/assets/icons/icon-192x192.png",
+        "https://balazs9510.github.io/angular-tictactoe/assets/icons/icon-512x512.png",
+        "https://balazs9510.github.io/angular-tictactoe/assets/site.webmanifest"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://balazs9510.github.io/angular-tictactoe/assets/apple-touch-icon.png": "e85c9083a25c3abde14e89622c685663c8bb2553",
+    "https://balazs9510.github.io/angular-tictactoe/assets/favicon-16x16.png": "66bd3b51a5c7dcd7f7a3eeaf66d89ccaa9bcc940",
+    "https://balazs9510.github.io/angular-tictactoe/assets/favicon-32x32.png": "02184f2a3b2ac6630df002983773c0d23269d133",
+    "https://balazs9510.github.io/angular-tictactoe/assets/icon.png": "70ea7def91d264593d2b5c423178529047355e60",
+    "https://balazs9510.github.io/angular-tictactoe/assets/icons/icon-192x192.png": "602c622135cc98dc6de86518493a3f1d5e15e307",
+    "https://balazs9510.github.io/angular-tictactoe/assets/icons/icon-512x512.png": "4b66488f0ab29601a29ec721625b3cc973d6c63c",
+    "https://balazs9510.github.io/angular-tictactoe/assets/site.webmanifest": "bf31baf91bdd2fcde24a45e3f2a1be33733c6f69",
+    "https://balazs9510.github.io/angular-tictactoe/favicon.ico": "b1fea2de7f624fd046d3da55dee75efafd5c30e2",
+    "https://balazs9510.github.io/angular-tictactoe/index.html": "4759167f578aa32e0a34edb54018f83887835321",
+    "https://balazs9510.github.io/angular-tictactoe/main.1545ed798ef97ed1.js": "ae03cbe0f8070bb1a82439ee3c82df14e5d72884",
+    "https://balazs9510.github.io/angular-tictactoe/manifest.webmanifest": "1035725522d65e33ce372ea85e97ffa5a1f81160",
+    "https://balazs9510.github.io/angular-tictactoe/polyfills.66e51308c4a4f395.js": "c3eee8b4d0ec4aa9c60811921d83cd5f558bc06c",
+    "https://balazs9510.github.io/angular-tictactoe/runtime.1204ad1466b7fe2c.js": "4ef74dfae3c0f5795b0c263f43e914c55b26a905",
+    "https://balazs9510.github.io/angular-tictactoe/styles.0ab428bbf9700fda.css": "d4b126c5d62b4421c10fce58524e69a451c41706"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
